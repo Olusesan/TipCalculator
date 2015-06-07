@@ -13,6 +13,7 @@
 		BD554A891B06E36300B154DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD554A881B06E36300B154DE /* Images.xcassets */; };
 		BD554A8C1B06E36300B154DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD554A8A1B06E36300B154DE /* LaunchScreen.xib */; };
 		BD554A981B06E36300B154DE /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD554A971B06E36300B154DE /* tipsTests.swift */; };
+		BD8E059D1B14C14900959F06 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8E059C1B14C14900959F06 /* settingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BD554A911B06E36300B154DE /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD554A961B06E36300B154DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD554A971B06E36300B154DE /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		BD8E059C1B14C14900959F06 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				BD554A811B06E36300B154DE /* AppDelegate.swift */,
 				BD554A831B06E36300B154DE /* ViewController.swift */,
+				BD8E059C1B14C14900959F06 /* settingsViewController.swift */,
 				BD554A851B06E36300B154DE /* Main.storyboard */,
 				BD554A881B06E36300B154DE /* Images.xcassets */,
 				BD554A8A1B06E36300B154DE /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				BD554A841B06E36300B154DE /* ViewController.swift in Sources */,
 				BD554A821B06E36300B154DE /* AppDelegate.swift in Sources */,
+				BD8E059D1B14C14900959F06 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				BD554A9D1B06E36300B154DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD554A9E1B06E36300B154DE /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				BD554AA01B06E36300B154DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
