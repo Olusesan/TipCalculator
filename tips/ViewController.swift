@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var barView: UIView!
 
+    @IBOutlet weak var secondTipsLabel: UILabel!
+    @IBOutlet weak var thirdTipsLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billsTextField: UITextField!
     @IBOutlet weak var tipsLabel: UILabel!
@@ -60,11 +62,13 @@ class ViewController: UIViewController {
 //        Create a billAmount variable and pass into textField as string
         var billAmount = (billsTextField.text as NSString).doubleValue
         
-//        Create a total Variable that holds results and pass into totalLabel as string
+//        Create a Variables that holds results and pass into totalLabel, secondTotalLabel and ThirdTotalLabel as string.
+        
         var total = billAmount + billAmount * (Double (tipPercent[tipControl.selectedSegmentIndex])/100)
         tipsLabel.text = String (format: "$%.2f", billAmount * Double (tipPercent[tipControl.selectedSegmentIndex])/100)
         totalLabel.text = String (format: "$%.2f", total)
-        
+        secondTipsLabel.text = String (format: "$%.2f", billAmount/2 * Double (tipPercent[tipControl.selectedSegmentIndex])/100)
+        thirdTipsLabel.text = String (format: "$%.2f", billAmount/3 * Double (tipPercent[tipControl.selectedSegmentIndex])/100)
         
     }
     
